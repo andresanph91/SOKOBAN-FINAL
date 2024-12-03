@@ -12,7 +12,7 @@ def leer_tablero(nivel):
     seccion = ''
     variables = {}
 
-    with open(f'{nivel}.board','r') as f:
+    with open(f'juego_recorrido (1)/{nivel}.board','r') as f:
         lineas = f.readlines()
 
         for linea in lineas :
